@@ -13,5 +13,10 @@
   },
   "front-page": {
     "welcome": "Welcome"
+  },
+  "language": {
+    "english": "English",
+    "finnish": "Finnish",
+    "russian": "Russian"
   }
 }

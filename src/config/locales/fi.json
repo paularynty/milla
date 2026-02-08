@@ -13,5 +13,10 @@
   },
   "front-page": {
     "welcome": "Tervetuloa"
+  },
+  "language": {
+    "english": "Englanti",
+    "finnish": "Suomi",
+    "russian": "Venäjä"
   }
 }
