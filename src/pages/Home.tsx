@@ -5,7 +5,6 @@ const Root = styled.div`
   display: flex;
   flex-direction: column;
   flex: 1;
-  background-color: rebeccapurple;
 `;
 
 export const Home = () => {

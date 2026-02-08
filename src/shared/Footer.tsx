@@ -42,7 +42,6 @@ const Dropdown = styled(motion.div)`
   bottom: 100%;
   left: 0%;
   right: 0;
-  background: var(--color-background);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-small);
   margin-block-end: var(--space-small);
@@ -194,7 +193,7 @@ export const Footer = ({ isDarkMode, onToggleTheme }: Props) => {
                         setDropdownOpen(false);
                       }}
                     >
-                      <FormattedMessage id="header.language.english" />
+                      <FormattedMessage id="language.english" />
                     </DropdownButton>
                   </DropdownItem>
 
@@ -205,7 +204,7 @@ export const Footer = ({ isDarkMode, onToggleTheme }: Props) => {
                         setDropdownOpen(false);
                       }}
                     >
-                      <FormattedMessage id="header.language.finnish" />
+                      <FormattedMessage id="language.finnish" />
                     </DropdownButton>
                   </DropdownItem>
 
@@ -216,29 +215,7 @@ export const Footer = ({ isDarkMode, onToggleTheme }: Props) => {
                         setDropdownOpen(false);
                       }}
                     >
-                      <FormattedMessage id="header.language.russian" />
-                    </DropdownButton>
-                  </DropdownItem>
-
-                  <DropdownItem role="menuitem">
-                    <DropdownButton
-                      onClick={() => {
-                        setLocale("de");
-                        setDropdownOpen(false);
-                      }}
-                    >
-                      <FormattedMessage id="header.language.german" />
-                    </DropdownButton>
-                  </DropdownItem>
-
-                  <DropdownItem role="menuitem">
-                    <DropdownButton
-                      onClick={() => {
-                        setLocale("cn");
-                        setDropdownOpen(false);
-                      }}
-                    >
-                      <FormattedMessage id="header.language.chinese" />
+                      <FormattedMessage id="language.russian" />
                     </DropdownButton>
                   </DropdownItem>
                 </DropdownList>
