@@ -1,0 +1,17 @@
+{
+  "footer": {
+    "language": {
+      "title": "Kieli"
+    },
+    "privacy-policy": "Tietosuojakäytäntö",
+    "terms-of-service": "Käyttöehdot",
+    "theme": {
+      "switch-to-dark": "Vaihda väriteema tummaan",
+      "switch-to-light": "Vaihda väriteema vaaleaan",
+      "title": "Väriteema"
+    }
+  },
+  "front-page": {
+    "welcome": "Tervetuloa"
+  }
+}

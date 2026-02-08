@@ -1,0 +1,17 @@
+{
+  "footer": {
+    "language": {
+      "title": "Language"
+    },
+    "privacy-policy": "Privacy policy",
+    "terms-of-service": "Terms of service",
+    "theme": {
+      "switch-to-dark": "Switch to dark mode",
+      "switch-to-light": "Switch to light mode",
+      "title": "Theme"
+    }
+  },
+  "front-page": {
+    "welcome": "Welcome"
+  }
+}

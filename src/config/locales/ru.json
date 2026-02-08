@@ -1,0 +1,17 @@
+{
+  "footer": {
+    "language": {
+      "title": "Язык"
+    },
+    "privacy-policy": "Политика конфиденциальности",
+    "terms-of-service": "Условия использования",
+    "theme": {
+      "switch-to-dark": "Включить темный режим",
+      "switch-to-light": "Включить светлый режим",
+      "title": "Тема"
+    }
+  },
+  "front-page": {
+    "welcome": "Добро пожаловать"
+  }
+}
