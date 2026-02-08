@@ -1,12 +1,10 @@
-import React from 'react';
-
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Nav = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px;
+  padding: 8px;
 `;
 
 export const Logo = styled.h1`
@@ -15,7 +13,7 @@ export const Logo = styled.h1`
 
 export const Menu = styled.div`
   display: flex;
-  gap: 16px;
+  gap: 24px;
 `;
 
 export const MenuItem = styled.a`
@@ -23,7 +21,7 @@ export const MenuItem = styled.a`
   text-transform: uppercase;
 `;
 
-export const Navigation: React.FC = () => {
+export const Header = () => {
   return (
     <Nav>
       <Logo>MILLA</Logo>
